@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteRule ^article/(.*) index.php?article=$1
+RewriteRule ^category/(.*) index.php?category=$1
+
+
+Header add Access-Control-Allow-Origin "*" 

@@ -1,0 +1,243 @@
+﻿@font-face 
+{
+	font-family: SFRegular;
+	src: url(fonts/SFUIText-Regular.ttf);
+}
+
+@font-face 
+{
+	font-family: SFSemibold;
+	src: url(fonts/SFUIText-Semibold.ttf);
+}
+
+@font-face 
+{
+	font-family: SFBold;
+	src: url(fonts/SFUIText-Bold.ttf);
+}
+
+@font-face 
+{
+	font-family: SFRegularItalic;
+	src: url(fonts/SFUIText-RegularItalic.ttf);
+}
+
+@font-face 
+{
+	font-family: SFSemiboldItalic;
+	src: url(fonts/SFUIText-SemiboldItalic.ttf);
+}
+
+@font-face 
+{
+	font-family: SFBoldItalic;
+	src: url(fonts/SFUIText-BoldItalic.ttf);
+}
+
+
+
+
+@font-face 
+{
+	font-family: Heavy;
+	src: url(fonts/MullerHeavy.otf);
+}
+
+@font-face 
+{
+	font-family: Bold;
+	src: url(fonts/MullerBold.otf);
+}
+
+@font-face 
+{
+	font-family: Medium;
+	src: url(fonts/MullerMedium.otf);
+}
+
+@font-face 
+{
+	font-family: Regular;
+	src: url(fonts/MullerRegular.otf);
+}
+
+@font-face 
+{
+	font-family: Light;
+	src: url(fonts/MullerLight.otf);
+}
+
+@font-face 
+{
+	font-family: Thin;
+	src: url(fonts/MullerThin.otf);
+}
+
+@font-face 
+{
+	font-family: Ultralight;
+	src: url(fonts/MullerUltralight.otf);
+}
+
+@font-face 
+{
+	font-family: HeavyItalic;
+	src: url(fonts/MullerHeavyItalic.otf);
+}
+
+@font-face 
+{
+	font-family: BoldItalic;
+	src: url(fonts/MullerBoldItalic.otf);
+}
+
+@font-face 
+{
+	font-family: MediumItalic;
+	src: url(fonts/MullerMediumItalic.otf);
+}
+
+@font-face 
+{
+	font-family: RegularItalic;
+	src: url(fonts/MullerRegularItalic.otf);
+}
+
+@font-face 
+{
+	font-family: LightItalic;
+	src: url(fonts/MullerLightItalic.otf);
+}
+
+body
+{
+	font-family: Regular;
+	background-color: #FDFDFD;
+	color: #333;
+}
+
+i
+{
+	font-style: normal;
+	font-family: RegularItalic;
+}
+
+b, strong
+{
+	font-weight: normal;
+	font-family: Medium;
+}
+
+button:hover
+{
+	cursor: pointer;
+}
+
+button:focus
+{
+	outline: none;
+}
+
+a
+{
+	color: #4978b7;
+}
+
+a:hover
+{
+	color: #4978b7;
+}
+
+a:focus
+{
+	outline: none;
+}
+
+body, html {
+
+}
+
+.workarea {
+	display: flex;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.content {
+
+}
+
+.article-name {
+	font-size: 26px;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 100%;
+	border: 1px solid #DDD;
+}
+
+.article-name:focus, .article-name:active {
+	outline: none;
+}
+
+.texter {
+	height: 400px;
+}
+
+.action-article {
+	border: 1px solid #DDD;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #F9F9F9;
+	color: #333;
+	transition: background-color 250ms;
+}
+
+.action-article:hover {
+	background-color: #EEE;
+	color: #000;
+}
+
+.error-alert {
+	margin-left: 10px;
+	color: #BB0000;
+}
+
+
+
+.trumbowyg-editor h1
+{
+	font-size: 2.5rem !important;
+}
+
+blockquote
+{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: rgba(255, 251, 69, 0.3);
+}
+
+
+.editor-read-article {
+	font-family: SFRegular;
+	position: relative;
+	word-break: break-word;
+}
+
+.editor-read-article h1.title {
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+
+.editor-read-article h1.title a {
+	font-size: 22px;
+	display: inline-block;
+	margin-left: 15px;
+}
+
+.editor-read-article img {
+	max-width: 100%;
+}

@@ -1,0 +1,52 @@
+@media (min-width: 1200px) 
+{
+	.bl_reviews .bl_bg, .bl_booking_tour .bl_bg
+	{
+		filter: blur(1px);
+	}
+}
+
+@media (min-width: 1400px) 
+{
+	.bl_screen .bl_bg 
+	{
+		background-position: center 0px;
+	}
+
+	.bl_reviews .bl_bg, .bl_booking_tour .bl_bg
+	{
+		background-position: center -80px;
+	}
+}
+
+@media (min-width: 1550px) 
+{
+	.bl_screen .bl_bg 
+	{
+		background-position: center -100px;
+	}
+
+	.bl_reviews .bl_bg, .bl_booking_tour .bl_bg
+	{
+		background-position: center -100px;
+	}
+}
+
+@media (min-width: 1800px) 
+{
+
+	.bl_about-me .bl_bg
+	{
+		background-position: center -700px;
+	}
+
+	.bl_reviews .bl_bg, .bl_booking_tour .bl_bg
+	{
+		background-position: center -150px;
+	}
+}
+
+
+
+
+		
